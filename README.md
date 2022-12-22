@@ -7,6 +7,8 @@ The extension includes a background script (background.js), a content script (co
 
 This extension can be useful for demonstrating something on a screen during a video call, as it allows the user to draw or highlight certain elements on the page for the benefit of the other participants. To use the extension, the user can click on the extension's icon in the browser's toolbar to toggle the drawing layer on or off. The user can then switch between drawing and erasing modes using the switch button that appears on the page, and draw or erase by clicking and dragging their mouse on the page.
 
+By right-clicking on the drawing layer, users can save the drawing as a PNG image. Note that this feature only saves the drawing itself, and not the underlying website content with the drawing superimposed on top.
+
 To use this extension, you must set the extension's permissions in your browser to allow it to access and modify website data "on click." This will allow the extension to run and make changes to the content of your active tab when you activate it by clicking on the extension's icon in the browser's toolbar.
 
 # To install this extension:
